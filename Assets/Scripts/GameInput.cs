@@ -35,6 +35,11 @@ public class GameInput : MonoBehaviour
         if (Instance == null)
             Instance = this;
 
+        if (PlayerPrefs.HasKey(PLAYER_PREFS_BINDINGS))
+        {
+            playerInputAction.LoadBindingOverridesFromJson(PLAYER_PREFS_BINDINGS);
+        }
+
         playerInputAction = new PlayerInputAction();
         playerInputAction.Player.Enable();
 
