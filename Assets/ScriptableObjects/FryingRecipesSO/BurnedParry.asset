@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40e59cb6267fc984994a74b93970ac7d, type: 3}
+  m_Name: BurnedParry
+  m_EditorClassIdentifier: 
+  input: {fileID: 11400000, guid: b8e680911de9e8c48a09099c09c2dc10, type: 2}
+  output: {fileID: 11400000, guid: b1f8a7992a0603945acb6ba104a752f0, type: 2}
+  burningTime: 5
