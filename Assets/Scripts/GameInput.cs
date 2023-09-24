@@ -15,7 +15,6 @@ public class GameInput : MonoBehaviour
     private PlayerInputAction playerInputAction;
 
 
-    // Start is called before the first frame update
     void Awake()
     {
         if (Instance == null)
